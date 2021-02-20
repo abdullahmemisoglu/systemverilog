@@ -1,2 +1,2 @@
-# VHDL
+# SystemVerilog
 Intel ModelSIM
