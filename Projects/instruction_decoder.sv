@@ -131,3 +131,14 @@ always_comb //SAYFA4
     aluopreg = komutreg[14:12];
     rdreg = 5'b0;
     end
+  else 
+    begin
+    hatareg = 1;
+    rs1reg = komutreg[19:15];
+    rs2reg = komutreg[24:20];
+    aluopreg = {1'b0,komutreg[14:12]};
+    immreg =
+    {19'b0,komutreg[31:25],komutreg[11:7],1'b0};
+    rdreg = 5'b0;
+    end
+    
