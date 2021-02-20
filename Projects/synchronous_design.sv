@@ -12,7 +12,7 @@ module lab4_qu4_a_m (
   output logic v , z , n , c , cout
 ) ;
 logic [31:0] a_reg , b_reg , res_reg , hata_reg;
-logic [3:0] op_reg; //SAYFA 2
+logic [3:0] op_reg; 
 logic v_reg , z_reg , n_reg , c_reg , cout_reg ;
 always_ff @ (posedge clk )
 begin
@@ -42,7 +42,7 @@ c_reg = 1;
 else
 c_reg = 0;
 end
-always @ ("*") //SAYFA 3
+always @ ("*") 
 begin
 if(op_reg == 4'b0000)
 {cout_reg,res_reg} = a_reg + b_reg ;
@@ -70,7 +70,7 @@ res_reg = a_reg & b_reg ;
 else
 res_reg = hata_reg ;
 end
-always_ff @(posedge clk ) //SAYFA 4
+always_ff @(posedge clk ) 
 begin
 res <= res_reg ;
 hata <= hata_reg ;
