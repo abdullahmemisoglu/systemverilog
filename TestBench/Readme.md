@@ -1,3 +1,2 @@
 
-Aşağıdaki resim;
-![](image.jpeg)
+
