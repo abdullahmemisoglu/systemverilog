@@ -1,1 +1,2 @@
 
+Aşağıdaki resim;
