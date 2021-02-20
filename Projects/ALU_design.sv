@@ -5,12 +5,12 @@
 * Lab4 Problem 3 ALU Tasarımı
 */
 module lab4_q3_a_m (
-input logic [31:0] a,b,
-input logic [3:0] op ,
-output logic [31:0] res
-,hata ,
-output logic v , z , n , c ,
-cout
+  input logic [31:0] a,b,
+  input logic [3:0] op ,
+  output logic [31:0] res
+  ,hata ,
+  output logic v , z , n , c ,
+  cout
 ) ;
 assign hata = 32'dx;
 always_comb
