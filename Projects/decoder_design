@@ -1,11 +1,11 @@
 /*
-/*
 * Author:
 * Abdullah MEMISOGLU
 *
 * ÇÖZÜCÜ TASARIMI
 *
 */
+
 `timescale 1ns/1ps
 module lab3_q_4
 (
